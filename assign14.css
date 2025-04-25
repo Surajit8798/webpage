@@ -1,0 +1,48 @@
+
+.navbar{
+    background-color: #06517B;
+    margin: 0px;
+}
+.navbar li{
+    float: left;
+    padding-left: 50px;
+    padding-right: 10px; 
+} 
+.navbar ul {
+    list-style-type: none;
+    display: inline-block;
+}
+.navbar ul li {
+    position: relative;
+    display: inline-block;
+}
+.navbar ul li a {
+    display: block;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+.navbar ul li a:hover {
+    color: red;
+    font-size: larger;
+}
+.navbar ul li ul {
+    display: none;
+    position: absolute;
+    color: red;
+}
+.navbar ul li:hover ul {
+    display: block;
+    float: none;
+}
+.navbar ul li ul li {
+    display: block;
+    float: none;
+}
+.navbar ul li ul li:hover {
+    color: red ;
+}
+footer{
+    background-color: black;
+    padding: 7px;
+}
