@@ -1,0 +1,38 @@
+.navbar{
+    background-color: #06517B;
+    margin: 0px;
+}
+.navbar ul{
+    list-style-type: none;
+    display: block;
+    overflow: hidden;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+} 
+.navbar li{
+    float: left;
+    padding: 6px;
+    padding-left: 50px;
+    padding-right: 10px;
+  
+} 
+.navbar a:hover{
+    color: red;
+    font-size: larger;
+}
+.navbar li ul{
+    display: none;
+   
+}
+li:hover ul{
+    float: center;
+    display: block;
+    margin-right: 500px;
+}
+footer{
+    background-color: black;
+    padding: 7px;
+}
